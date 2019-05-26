@@ -12,6 +12,10 @@
     $ source venv/bin/activate
     $ python manage.py runserver
 
+# Howto test
+
+    $ python manage.py test polls
+
 
 # Links
 * https://docs.djangoproject.com/ja/2.2/intro/tutorial01/
