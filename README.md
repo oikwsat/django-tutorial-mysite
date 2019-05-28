@@ -2,14 +2,16 @@
 
 # Requirements
 
-* Python 3
+* Python 3.3 later
 * Django 2.2
-* vnenv
 
 # Howto run
 
     $ python3 -m venv venv
     $ source venv/bin/activate
+
+    $ pip install Django
+
     $ python manage.py runserver
 
 # Howto test
