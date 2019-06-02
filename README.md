@@ -7,12 +7,16 @@
 
 # Howto run
 
-    $ python3 -m venv venv
-    $ source venv/bin/activate
+    $ python3 -m venv .env
+    $ . .env/bin/activate
 
     $ pip install Django
 
     $ python manage.py runserver
+
+    access to http://127.0.0.1:8000/ by browser
+    login with admin / admin
+
 
 # Howto test
 
